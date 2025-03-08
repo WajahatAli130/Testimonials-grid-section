@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+/* .container {
+  width: 30rem;
+  margin: auto;
+} */
+.card {
+  border-radius: 0.5rem;
+  width: 20rem;
+  margin: auto;
+  padding: 15px 25px 15px 25px;
+  margin-bottom: 1.5rem;
+}
+.card-white {
+  border-radius: 0.5rem;
+  width: 20rem;
+  margin: auto;
+  padding: 15px 25px 15px 25px;
+  margin-bottom: 1.5rem;
+  background-color: white;
+}
+img {
+  border-radius: 50%;
+  border: 0.05rem solid white;
+  width: 2.3rem;
+}
+.card-header {
+  display: flex;
+}
+.daniel {
+  background-color: hsl(263, 55%, 52%);
+}
+.name {
+  color: aliceblue;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+.position {
+  color: whitesmoke;
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  opacity: 50%;
+}
+p {
+  color: white;
+}
+.review {
+  opacity: 70%;
+  padding-top: 20px;
+  font-size: 13px;
+  word-spacing: 0.1rem;
+  line-height: 1.3rem;
+}
+.body-title {
+  padding-top: 20px;
+  font-size: 1.3rem;
+  font-weight: 550;
+}
+.jonathan {
+  background-color: hsl(217, 19%, 35%);
+}
+.card-white p {
+  color: black;
+}
+.patrick img {
+  border: 0.05rem solid hsl(263, 55%, 52%);
+}
+
+.patrick {
+  background-color: hsl(219, 29%, 14%);
+}
+@media (min-width: 800px){
+body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 300px);
+}
+.daniel {
+    grid-column: 1 / 3;
+}
+
+.jeanette {
+    grid-row: 2;
+}
+
+.patrick {
+    grid-row: 2;
+    grid-column: 2 / span 2;
+}
+.kira {
+    grid-row: 1 / span 2;
+}
+
+}
